@@ -19,7 +19,7 @@ function getTime() {
       h += 6 
    }
 
-   if (h > 24) {
+   if (h >= 24) {
       // in case of hours zones that pass 24 hours
       h -= 24
    }
