@@ -159,6 +159,13 @@ button:last-of-type:hover {
       height: 45px;
       padding: 6px;
    }
+
+   #minute::before, #second::before {
+      position: absolute;
+      right: 0;
+      left: -10px;
+      top: 0;
+   }
 }
 
 #minute::before, #second::before {
